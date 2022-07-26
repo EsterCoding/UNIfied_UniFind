@@ -8,11 +8,9 @@ function App() {
         <div>
           <BrowserRouter>
           <nav class="navbar background">
-              <p class="text">
-                UniFind
-              </p>
+            <p class="text">UniFind</p>
               <ul class="nav-list">
-                <li><a href="home">Home</a></li>
+                <li><Link to="/home">Home</Link></li>
                 <li><Link to="/universities">Universities</Link></li>
                 <li><Link to="/agenda">Agenda</Link></li>
                 <li><Link to="/conatctUs">Contact Us</Link></li> 
@@ -22,17 +20,9 @@ function App() {
               </div> 
             </ul>
           </nav>
-  
-          <section class="section">
-            <div class="box-main">
-              <div class="firstHalf">
-                <h1 class="text-big"> UniFind</h1>
-              </div>
-            </div>
-          </section> 
 
           <Routes>
-            <Route index element={<Home />} />
+            <Route path={"home/*"} element={<Home />} />
             <Route path={"universities/*"} element={<Universities />} />
           </Routes>
         </BrowserRouter>

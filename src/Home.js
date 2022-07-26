@@ -1,8 +1,15 @@
 function Home() {
     return (
         <div>
-            <h1> Home </h1>
+          <section class="section">
+            <div class="box-main">
+                <div class="firstHalf">
+                    <h1 class="text-big"> UniFind</h1>
+                </div>
+            </div>
+          </section> 
         </div>
+
     )
 }
 
