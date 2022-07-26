@@ -7,17 +7,18 @@ function Universities() {
     return (
         <div>
             <h1> Universities </h1>
+            <p> Do you want to study in Albania or abroad?</p>
             <nav>
                 
             </nav>
-
-            <button class="two-buttons-first">
+          <div class="university-buttons">
+            <button class="two-buttons">
               <Link to="/universities/universities-in-albania">Universities in Albania</Link>
             </button>
-            <button class="two-buttons-second">
+            <button class="two-buttons">
               <Link to="/universities/universities-abroad">Universities abroad</Link>
             </button>
-
+          </div>
             <Routes>
                 <Route path="universities-in-albania/" element={<UniversitiesInAlbania />} />
                 <Route path="universities-abroad/" element={<UniversitiesAbroad />} />
