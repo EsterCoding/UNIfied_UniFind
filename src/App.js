@@ -13,7 +13,7 @@ function App() {
                 <li><Link to="/home">Home</Link></li>
                 <li><Link to="/universities">Universities</Link></li>
                 <li><Link to="/agenda">Agenda</Link></li>
-                <li><Link to="/conatctUs">Contact Us</Link></li> 
+                <li><Link to="/contactUs">Contact Us</Link></li> 
               <div class="rightNav">
                 <input type="text" name="search" id="search" />
                 <button class="btn btn-sm">Search</button>
