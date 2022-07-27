@@ -15,6 +15,9 @@ function Abroad() {
                 <Route path="" element={<AbroadList />} />
                 <Route path="AbroadCS" element={<AbroadCS />} />
                 <Route path="AbroadEconomy" element={<AbroadEconomy />} />
+                <Route path="AbroadMedicine" element={<AbroadMedicine />} />
+                <Route path="AbroadArch" element={<AbroadArch />} />
+                <Route path="AbroadLaw" element={<AbroadLaw />} />
             </Routes>
         </div>
     )

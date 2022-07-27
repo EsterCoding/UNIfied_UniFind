@@ -5,11 +5,8 @@ import Abroad from './Abroad'
 function Universities() {
     return (
         <div>
-            <h1> Universities </h1>
+            <h1> Universities</h1>
             <p> Do you want to study in Albania or abroad?</p>
-            <nav>
-                
-            </nav>
           <div class="university-buttons">
             <button class="two-buttons">
               <Link to="/universities/Albania">Universities in Albania</Link>
@@ -18,10 +15,6 @@ function Universities() {
               <Link to="/universities/Abroad">Universities abroad</Link>
             </button>
           </div>
-            <Routes>
-                <Route path="Albania/" element={<Albania />} />
-                <Route path="Abroad/" element={<Abroad />} />
-            </Routes>
         </div>
     )
 }

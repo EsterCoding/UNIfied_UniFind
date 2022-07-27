@@ -7,9 +7,9 @@ function UniversitiesRouter() {
     return (
         <div>
             <Routes>
-                <Route path="" element={<Universities />} />
-                <Route path="Albania" element={<Albania />} />
-                <Route path="Abroad" element={<Abroad />} />
+                <Route path="/*" element={<Universities />} />
+                <Route path="Albania/*" element={<Albania />} />
+                <Route path="Abroad/*" element={<Abroad />} />
             </Routes>
         </div>
     )

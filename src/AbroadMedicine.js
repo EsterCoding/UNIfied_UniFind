@@ -3,7 +3,7 @@ import { Link, Routes, Route } from 'react-router-dom'
 function AbroadMedicine() {
     return (
         <div>
-            <h1> Computer Science </h1>  
+            <h1> Medicine </h1>  
         </div>
     )
 }
