@@ -2,27 +2,25 @@ import { Link, Routes, Route } from 'react-router-dom'
 
 function AlbaniaList() {
     return (
-        <div>
-            <h1> Universities in Albania </h1>
-
-            <nav>
-                <li>
+        <div className='div' align='center'>
+            <h1> Universities Abroad</h1>
+            <div class="alb-university-buttons">
+                <button class="unis">
                     <Link to="/universities/Albania/AlbCS"> Computer Science </Link>
-                </li>
-                <li>
+                </button>
+                <button>
                     <Link to="/universities/Albania/AlbEconomy">  Economy </Link>
-                </li>
-                <li>
+                </button>
+                <button class="unis">
                     <Link to="/universities/Albania/AlbArch"> Architecture </Link>
-                </li>
-                <li>
+                </button>
+                <button class="unis">
                     <Link to="/universities/Albania/AlbLaw">  Law </Link>
-                </li>
-                <li>
+                </button>
+                <button class="unis">
                     <Link to="/universities/Albania/AlbMedicine">  Medicine </Link>
-                </li>
-            </nav>
-
+                </button>
+            </div>
         </div>
     )
 }
