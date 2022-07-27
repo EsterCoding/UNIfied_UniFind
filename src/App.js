@@ -2,13 +2,17 @@ import './App.css';
 import { BrowserRouter, Link, Routes, Route } from 'react-router-dom'
 import Universities from './Universities.js';
 import Home from './Home.js';
+import logo from './logo.png'
 
 function App() {
     return (
         <div>
           <BrowserRouter>
           <nav class="navbar background">
-            <p class="text">UniFind</p>
+            <div class="upLogo">
+              <img src={logo} width="65%"/>
+            </div>
+            {/* <p class="text">UniFind</p> */}
               <ul class="nav-list">
                 <li><Link to="/home">Home</Link></li>
                 <li><Link to="/universities">Universities</Link></li>
@@ -32,5 +36,6 @@ function App() {
       </div>
     );
 }
+
   
 export default App;

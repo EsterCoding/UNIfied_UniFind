@@ -1,6 +1,6 @@
 *{
   margin: 0;
-  padding: 0;
+  padding: 50;
 }
 
 .navbar {
@@ -15,12 +15,6 @@
 .text {
   width: 45%;
   font-family: 'Lucida Console'
-}
-
-.background {
-  background: rgb(149, 136, 181);
-  background-blend-mode: darken;
-  background-size: cover;
 }
 
 .footer {
@@ -56,10 +50,6 @@
 .nav-list li a {
   text-decoration: none;
   color: #000;
-}
-
-.nav-list li a:hover {
-  color: grey;
 }
 
 .rightnav {
@@ -153,9 +143,9 @@ background-color: #000;
 }
  
 .background {
-    background: rgb(185, 176, 255);
-    background-blend-mode: darken;
-    background-size: cover;
+  background-color: #9588B5 ;
+  background-blend-mode: darken;
+  background-size: cover;
 }
  
 .footer {
@@ -304,4 +294,9 @@ img {
   left: 20%;
 }
 
-
+.upLogo {
+  max-height: 10%;
+  max-width:25%;
+  object-fit: contain;
+  
+}
