@@ -1,15 +1,11 @@
-import logo from './logo.png'
+import logo from './1.PNG'
 
 function Home() {
     return (
         <div>
-          <section class="section">
-            <div class="box-main">
-                <div class="firstHalf">
-                  <img src={logo}/>
-                </div>
-            </div>
-          </section> 
+          <div class="firstHalf">
+            <img src={logo} />
+          </div>
         </div>
 
     )
