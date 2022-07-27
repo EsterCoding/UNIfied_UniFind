@@ -2,6 +2,8 @@ import './App.css';
 import { BrowserRouter, Link, Routes, Route } from 'react-router-dom'
 import UniversitiesRouter from './UniversitiesRouter.js';
 import Home from './Home.js';
+import ContactUs from './contactUs';
+import Agenda from './agenda';
 import logo from './logo.png'
 
 function App() {
@@ -28,6 +30,8 @@ function App() {
           <Routes>
             <Route path={"home/*"} element={<Home />} />
             <Route path={"universities/*"} element={<UniversitiesRouter />} />
+            <Route path={"contactUs/*"} element={<ContactUs />} />
+            <Route path={"agenda/*"} element={<Agenda />} />
           </Routes>
         </BrowserRouter>
         <footer className="footer">
