@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter, Link, Routes, Route } from 'react-router-dom'
-import Universities from './Universities.js';
+import UniversitiesRouter from './UniversitiesRouter.js';
 import Home from './Home.js';
 import logo from './logo.png'
 
@@ -27,7 +27,7 @@ function App() {
 
           <Routes>
             <Route path={"home/*"} element={<Home />} />
-            <Route path={"universities/*"} element={<Universities />} />
+            <Route path={"universities/*"} element={<UniversitiesRouter />} />
           </Routes>
         </BrowserRouter>
         <footer className="footer">

@@ -1,7 +1,6 @@
 import { Link, Routes, Route } from 'react-router-dom'
-import { BrowserRouter } from 'react-router-dom'
-import UniversitiesInAlbania from './UniversitiesInAlbania'
-import UniversitiesAbroad from './UniversitiesAbroad'
+import Albania from './Albania'
+import Abroad from './Abroad'
 
 function Universities() {
     return (
@@ -13,15 +12,15 @@ function Universities() {
             </nav>
           <div class="university-buttons">
             <button class="two-buttons">
-              <Link to="/universities/universities-in-albania">Universities in Albania</Link>
+              <Link to="/universities/Albania">Universities in Albania</Link>
             </button>
             <button class="two-buttons">
-              <Link to="/universities/universities-abroad">Universities abroad</Link>
+              <Link to="/universities/Abroad">Universities abroad</Link>
             </button>
           </div>
             <Routes>
-                <Route path="universities-in-albania/" element={<UniversitiesInAlbania />} />
-                <Route path="universities-abroad/" element={<UniversitiesAbroad />} />
+                <Route path="Albania/" element={<Albania />} />
+                <Route path="Abroad/" element={<Abroad />} />
             </Routes>
         </div>
     )
